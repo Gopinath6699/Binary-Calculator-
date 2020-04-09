@@ -1,0 +1,42 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Binary Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="images/Calculator-icon.png" sizes="100x100">
+        <link rel="stylesheet" href="css/BinaryCalculator.css">
+    </head>
+
+    <body class="progress-bar progress-bar-striped progress-bar-animated bg-info" >
+        <div>
+            <p class="heading mt-5 mx-auto font-weight-bolder fon">BINARY CALCULATOR</p>
+            <div class="card mx-auto mb-2 bg-light">
+                <div class="card-body">
+                    <div id='res' class="form-control form-control-lg mt-3 text-left" readonly></div><br>
+                    <div id="btns">
+                        <button type="button" class="btn btn-dark btn-lg" id="btn0">0</button>
+                        <button type="button" class="btn btn-dark btn-lg" id="btn1">1</button>
+                        <button type="button" class="btn btn-yellow btn-lg" id="btnCe">CE</button><br>
+                        <button type="button" class="btn btn-dark btn-lg" id="btnSum">+</button>
+                        <button type="button" class="btn btn-dark btn-lg" id="btnSub">-</button>
+                        <button type="button" class="btn btn-yellow btn-lg" id="btnClr">AC</button><br>
+                        <button type="button" class="btn btn-dark btn-lg" id="btnMul">*</button>
+                        <button type="button" class="btn btn-dark btn-lg" id="btnDiv">/</button>
+                        <button type="button" class="btn btn-yellow btn-lg" id="btnEql">=</button>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <script src="js/BinaryCalculator.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/popper.min.js" type="module"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"></script>
+    </body>
+</html>
